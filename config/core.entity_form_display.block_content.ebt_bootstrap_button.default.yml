@@ -1,0 +1,39 @@
+uuid: 24ee5798-c1ea-466f-baa9-6b7f55524731
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_bootstrap_button
+    - field.field.block_content.ebt_bootstrap_button.field_ebt_bootstrap_button_link
+    - field.field.block_content.ebt_bootstrap_button.field_ebt_settings
+  module:
+    - ebt_bootstrap_button
+    - link
+id: block_content.ebt_bootstrap_button.default
+targetEntityType: block_content
+bundle: ebt_bootstrap_button
+mode: default
+content:
+  field_ebt_bootstrap_button_link:
+    type: link_default
+    weight: 27
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_ebt_settings:
+    type: ebt_settings_bootstrap_button
+    weight: 28
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

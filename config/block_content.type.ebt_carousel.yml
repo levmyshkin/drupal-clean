@@ -1,0 +1,10 @@
+uuid: e9d8a6e6-e5ad-4220-b287-b21149ae7ccb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DXQisXm71ScIY9qHGkk7imRMnjI_dBDSZfzT-uFCzwQ
+id: ebt_carousel
+label: 'EBT Carousel'
+revision: 1
+description: 'Extra Block Type (EBT): Carousel'

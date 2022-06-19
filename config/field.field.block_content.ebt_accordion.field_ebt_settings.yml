@@ -1,0 +1,27 @@
+uuid: 3e0da7b0-23be-49cb-b39e-46d682c58356
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_accordion
+    - field.storage.block_content.field_ebt_settings
+  module:
+    - ebt_core
+_core:
+  default_config_hash: oxlUNTKgt5hbtKMNqmqpS6kVhfMtRz4SoRe1yzpVgxk
+id: block_content.ebt_accordion.field_ebt_settings
+field_name: field_ebt_settings
+entity_type: block_content
+bundle: ebt_accordion
+label: 'Block settings'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    option1: ''
+    option2: null
+    ebt_settings: {  }
+default_value_callback: ''
+settings: {  }
+field_type: ebt_settings

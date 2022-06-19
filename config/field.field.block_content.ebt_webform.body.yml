@@ -1,0 +1,23 @@
+uuid: 6a994109-c90c-4d5e-bce4-504e9b89cd51
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_webform
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.ebt_webform.body
+field_name: body
+entity_type: block_content
+bundle: ebt_webform
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

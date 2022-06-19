@@ -1,0 +1,25 @@
+uuid: 53fe21e6-0326-4dff-9f55-46785ee6bd41
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ebt_bootstrap_button:6cccddbf-6d6c-4386-b252-7442f50b787e'
+  module:
+    - block_content
+  theme:
+    - bootstrap5
+id: asdfasdf1
+theme: bootstrap5
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:6cccddbf-6d6c-4386-b252-7442f50b787e'
+settings:
+  id: 'block_content:6cccddbf-6d6c-4386-b252-7442f50b787e'
+  label: 'asdf asdf1'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

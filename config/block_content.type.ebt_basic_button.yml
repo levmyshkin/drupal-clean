@@ -1,0 +1,8 @@
+uuid: 5ae09700-ff87-4f30-8a7d-032aba7bd66a
+langcode: en
+status: true
+dependencies: {  }
+id: ebt_basic_button
+label: 'EBT Basic Button'
+revision: 0
+description: 'Extra Block Type (EBT): Basic Button'

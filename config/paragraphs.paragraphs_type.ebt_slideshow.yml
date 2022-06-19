@@ -1,0 +1,12 @@
+uuid: 56595bba-e493-43f1-b4c0-c0243223335b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: w2WGJ4aKvEDboBJF57pgXFhBszTz1hdN6QJ6LV2Xh-Y
+id: ebt_slideshow
+label: Slide
+icon_uuid: null
+icon_default: null
+description: 'Slideshow section for EBT Slideshow'
+behavior_plugins: {  }

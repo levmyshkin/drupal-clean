@@ -1,0 +1,8 @@
+uuid: 46e25e5b-29a9-4e6d-877d-9061f531ee79
+langcode: en
+status: true
+dependencies: {  }
+id: ebt_slick_slider
+label: 'EBT Slick Slider'
+revision: 0
+description: 'Extra Block Type (EBT): Slick Slider'

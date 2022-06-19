@@ -1,0 +1,35 @@
+uuid: 765dc62a-9e81-4bd7-9cdd-7bab87c0d687
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_timeline
+    - field.field.block_content.ebt_timeline.field_ebt_settings
+    - field.field.block_content.ebt_timeline.field_ebt_timeline
+  module:
+    - ebt_core
+    - entity_reference_revisions
+_core:
+  default_config_hash: bfJtQm_JGhXjpffKuejK_QMbyA4fxEqMrVt-N98sqZo
+id: block_content.ebt_timeline.default
+targetEntityType: block_content
+bundle: ebt_timeline
+mode: default
+content:
+  field_ebt_settings:
+    type: ebt_settings_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_ebt_timeline:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

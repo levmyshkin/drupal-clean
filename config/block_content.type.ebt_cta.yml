@@ -1,0 +1,8 @@
+uuid: bf60eefe-e857-4066-b0e3-676754daece6
+langcode: en
+status: true
+dependencies: {  }
+id: ebt_cta
+label: 'EBT Call to Action (CTA)'
+revision: 1
+description: 'Extra Block Type (EBT): Call to Action (CTA)'

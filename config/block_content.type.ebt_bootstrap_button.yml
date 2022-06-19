@@ -1,0 +1,8 @@
+uuid: 6d88df48-9ffc-4ba6-b222-3fac934a1795
+langcode: en
+status: true
+dependencies: {  }
+id: ebt_bootstrap_button
+label: 'EBT Bootstrap Button'
+revision: 0
+description: 'Extra Block Type (EBT): Bootstrap Button'

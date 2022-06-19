@@ -1,0 +1,28 @@
+uuid: 55e86749-da6a-422e-ab44-f6c0adfb321f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_tabs
+    - field.field.block_content.ebt_tabs.field_ebt_settings
+    - field.field.block_content.ebt_tabs.field_ebt_tabs
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: VbATvgEBA1eqkYgySsL0Jj8r_B2YFkiHlI4Qt028QeM
+id: block_content.ebt_tabs.default
+targetEntityType: block_content
+bundle: ebt_tabs
+mode: default
+content:
+  field_ebt_tabs:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_ebt_settings: true

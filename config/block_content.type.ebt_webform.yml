@@ -1,0 +1,8 @@
+uuid: ff085929-6579-4d1b-8973-1aa6a90ea26c
+langcode: en
+status: true
+dependencies: {  }
+id: ebt_webform
+label: 'EBT Webform'
+revision: 0
+description: 'Extra Block Type (EBT): Webform'

@@ -1,0 +1,12 @@
+uuid: 28fde3de-4855-4084-9e75-52fbc8447e8e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hJgLMrvSl5_CWEzIn-1yfn5P0iuhfQb4wZcycJKfbMU
+id: ebt_accordion
+label: 'Accordion section / FAQ section'
+icon_uuid: null
+icon_default: null
+description: 'Accordion or FAQ section for EBT Accordion/FAQ'
+behavior_plugins: {  }

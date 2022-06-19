@@ -1,0 +1,8 @@
+uuid: a3c33ec3-7b1a-4d4b-b209-24b97bf14aca
+langcode: en
+status: true
+dependencies: {  }
+id: ebt_text
+label: 'EBT Text'
+revision: 1
+description: 'Adds Text block type with WYSIWYG editor'

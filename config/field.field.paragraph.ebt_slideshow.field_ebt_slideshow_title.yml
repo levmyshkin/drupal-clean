@@ -1,0 +1,23 @@
+uuid: ecd2b645-72df-49a7-8ad9-61ef729851b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ebt_slideshow_title
+    - paragraphs.paragraphs_type.ebt_slideshow
+  module:
+    - text
+_core:
+  default_config_hash: wx6WPKQX9W097pBS8JtdJDdA6AFL8I87_F4189xnz0w
+id: paragraph.ebt_slideshow.field_ebt_slideshow_title
+field_name: field_ebt_slideshow_title
+entity_type: paragraph
+bundle: ebt_slideshow
+label: 'Slide title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

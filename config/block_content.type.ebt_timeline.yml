@@ -1,0 +1,10 @@
+uuid: 118a634d-e2d1-4e3f-99e6-2ae2ebd882eb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bjr_DHRSS1dmovJ9hu9PkQkEIHfJ9wcHbVFuexiFC7I
+id: ebt_timeline
+label: 'EBT Timeline'
+revision: 0
+description: 'Extra Block Type (EBT): Timeline'

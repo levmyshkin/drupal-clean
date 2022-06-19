@@ -1,0 +1,36 @@
+uuid: 964cb8ff-3f0b-4ae5-a260-d9696b964e67
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_bootstrap_button
+    - field.field.block_content.ebt_bootstrap_button.field_ebt_bootstrap_button_link
+    - field.field.block_content.ebt_bootstrap_button.field_ebt_settings
+  module:
+    - ebt_core
+    - link
+id: block_content.ebt_bootstrap_button.default
+targetEntityType: block_content
+bundle: ebt_bootstrap_button
+mode: default
+content:
+  field_ebt_bootstrap_button_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 800
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_ebt_settings:
+    type: ebt_settings_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

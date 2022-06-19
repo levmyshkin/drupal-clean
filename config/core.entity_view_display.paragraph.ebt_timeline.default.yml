@@ -1,0 +1,63 @@
+uuid: 82b5e664-f6aa-44e0-a55b-05a0b2257905
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ebt_timeline.field_ebt_timeline_current
+    - field.field.paragraph.ebt_timeline.field_ebt_timeline_date
+    - field.field.paragraph.ebt_timeline.field_ebt_timeline_image
+    - field.field.paragraph.ebt_timeline.field_ebt_timeline_text
+    - field.field.paragraph.ebt_timeline.field_ebt_timeline_title
+    - paragraphs.paragraphs_type.ebt_timeline
+  module:
+    - image
+    - text
+_core:
+  default_config_hash: DGHwZt7kJWVNt-fxQ4T-KzLYg1ichNcQQG2hABu9FQM
+id: paragraph.ebt_timeline.default
+targetEntityType: paragraph
+bundle: ebt_timeline
+mode: default
+content:
+  field_ebt_timeline_current:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_ebt_timeline_date:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_ebt_timeline_image:
+    type: image_url
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_ebt_timeline_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_ebt_timeline_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

@@ -1,0 +1,12 @@
+uuid: 65efb663-97b3-46eb-b7a5-91c9d73ce127
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BrZoscWM38J0033wJ5AKN_Bi1H50ktHAsflXwV9EkH4
+id: ebt_timeline
+label: 'Timeline Event'
+icon_uuid: null
+icon_default: null
+description: 'Timeline section for EBT Timeline'
+behavior_plugins: {  }

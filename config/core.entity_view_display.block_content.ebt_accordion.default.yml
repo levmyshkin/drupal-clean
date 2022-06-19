@@ -1,0 +1,35 @@
+uuid: f5fbfb5a-ace1-4c29-81a1-9beafc373fbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_accordion
+    - field.field.block_content.ebt_accordion.field_ebt_accordion
+    - field.field.block_content.ebt_accordion.field_ebt_settings
+  module:
+    - ebt_core
+    - entity_reference_revisions
+_core:
+  default_config_hash: KswwT3Pre7bX4vNdQH57nvPnTtaYDHr1dZl27EgCOPE
+id: block_content.ebt_accordion.default
+targetEntityType: block_content
+bundle: ebt_accordion
+mode: default
+content:
+  field_ebt_accordion:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_ebt_settings:
+    type: ebt_settings_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

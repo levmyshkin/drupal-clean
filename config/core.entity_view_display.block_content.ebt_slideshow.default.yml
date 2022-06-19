@@ -1,0 +1,28 @@
+uuid: 9d4ab5af-4aca-4efa-9de2-6e00ba5c9a6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_slideshow
+    - field.field.block_content.ebt_slideshow.field_ebt_settings
+    - field.field.block_content.ebt_slideshow.field_ebt_slideshow
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: mtWCnFfgKEeW85VC8B0w6c1438S-bOGUJEppAIJAakE
+id: block_content.ebt_slideshow.default
+targetEntityType: block_content
+bundle: ebt_slideshow
+mode: default
+content:
+  field_ebt_slideshow:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_ebt_settings: true

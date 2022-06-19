@@ -1,0 +1,10 @@
+uuid: 5d4a24e5-ecd2-4988-b8a5-dc58724afc78
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: W-lXlcGHuv4qnJqSIhwhzbs7aE2_VKhpa9-wZzfr-1A
+id: ebt_slideshow
+label: 'EBT Slideshow'
+revision: 0
+description: 'Extra Block Type (EBT): Slideshow'

@@ -1,0 +1,12 @@
+uuid: 57b9122d-afb8-4b10-9943-ddc5c37c11af
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: TKClDa8g9F_9hvHVbbZozIFvholrgrN8QCV4YZUVYcY
+id: ebt_carousel
+label: 'Carousel item'
+icon_uuid: null
+icon_default: null
+description: 'Carousel section for EBT Carousel'
+behavior_plugins: {  }

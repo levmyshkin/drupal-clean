@@ -1,0 +1,8 @@
+uuid: 74dd2ebf-ed9d-421f-a574-4fcc6321cd7e
+langcode: en
+status: true
+dependencies: {  }
+id: ebt_webform_popup
+label: 'EBT Webform Popup'
+revision: 0
+description: 'Extra Block Type (EBT): Webform Popup'
