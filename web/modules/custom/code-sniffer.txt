@@ -1,1 +1,4 @@
 phpcs --standard=Drupal --extensions=php,module,inc,install,test,profile,theme,css,info,txt,md,yml web/modules/custom/ebt_webform_popup
+
+composer require mglaman/drupal-check --dev
+php vendor/bin/drupal-check web/modules/custom/ebt_core
