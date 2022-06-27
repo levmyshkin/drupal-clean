@@ -1,0 +1,8 @@
+https://www.drupal.org/docs/automated-testing/phpunit-in-drupal/phpunit-browser-test-tutorial#s-running-the-test
+
+vendor/bin/phpunit --filter InstallTest
+vendor/bin/phpunit --filter testReactionRulePage
+
+
+../../vendor/bin/phpunit --filter testInstallation ../modules/custom/ebt_core/tests/src/Functional/InstallTest.php
+../../vendor/bin/phpunit --filter testUninstall ../modules/custom/ebt_core/tests/src/Functional/UninstallTest.php
