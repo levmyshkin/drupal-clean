@@ -1,4 +1,4 @@
-uuid: 448d4948-605c-4dda-8497-442d464ea882
+uuid: fdb9ec50-a2ce-4c90-9511-3e61d598dd5e
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: cDHh8Wc57pJFkq3ghZHPfATsC60unEA1FllLMue8C3s
+  default_config_hash: 88S9t5TulgpCtOTRYDy4gcRRj2A4RRDjoydiom8AVQw
 id: block_content.ebt_accordion.field_ebt_accordion
 field_name: field_ebt_accordion
 entity_type: block_content
@@ -23,13 +23,13 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
+    negate: 0
     target_bundles:
       ebt_accordion: ebt_accordion
-    negate: 0
     target_bundles_drag_drop:
       ebt_accordion:
-        weight: 3
         enabled: true
+        weight: 3
       ebt_tab:
         weight: 4
         enabled: false

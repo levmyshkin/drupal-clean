@@ -1,10 +1,12 @@
-uuid: 83dcd4b3-07da-41a9-bd19-f31bd76de72e
+uuid: b6577ee5-6777-493e-b328-9c9b8d9253e2
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
     - webform
+_core:
+  default_config_hash: GlZwbpK_4w1bHHs_IAnr12BJmD-fvq2QCviVBXnfiRA
 id: block_content.field_ebt_webform_popup_form
 field_name: field_ebt_webform_popup_form
 entity_type: block_content

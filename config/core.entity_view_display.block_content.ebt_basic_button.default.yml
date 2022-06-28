@@ -1,4 +1,4 @@
-uuid: 9ee2ff13-4983-4a66-a182-d2382667a34d
+uuid: b42f8884-bc1e-43f7-80ba-88418cfe219c
 langcode: en
 status: true
 dependencies:
@@ -9,13 +9,15 @@ dependencies:
   module:
     - ebt_core
     - link
+_core:
+  default_config_hash: D0bWnt-1a4nvpSyJNmrOwKtHeZ4joh72qib-yadGXdo
 id: block_content.ebt_basic_button.default
 targetEntityType: block_content
 bundle: ebt_basic_button
 mode: default
 content:
   field_ebt_basic_button_link:
-    type: link
+    weight: 1
     label: hidden
     settings:
       trim_length: 800
@@ -24,13 +26,13 @@ content:
       rel: '0'
       target: '0'
     third_party_settings: {  }
-    weight: 1
+    type: link
     region: content
   field_ebt_settings:
-    type: ebt_settings_default
+    weight: 2
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    type: ebt_settings_default
     region: content
 hidden: {  }

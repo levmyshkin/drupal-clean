@@ -1,4 +1,4 @@
-uuid: 12aaf604-dd94-4104-9475-1fbbe0cbda19
+uuid: 2115988c-95b6-482e-97d7-5283aae37887
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.body
   module:
     - text
+_core:
+  default_config_hash: 1VYVNgk5Hp9ZSjh89NrWVzpkv3BfOpNJz3E_qlTqNkY
 id: block_content.ebt_slick_slider.body
 field_name: body
 entity_type: block_content

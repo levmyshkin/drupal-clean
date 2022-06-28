@@ -1,4 +1,4 @@
-uuid: 1f371327-0815-4cd3-af29-00d73d47c2d3
+uuid: 43e6942d-20ea-461e-abcc-0b2e7a74b240
 langcode: en
 status: true
 dependencies:
@@ -53,16 +53,11 @@ settings:
   plugins:
     stylescombo:
       styles: ''
-    drupallink:
-      linkit_enabled: true
-      linkit_profile: default
-    language:
-      language_list: un
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: null
-    height: null
+    width: 0
+    height: 0

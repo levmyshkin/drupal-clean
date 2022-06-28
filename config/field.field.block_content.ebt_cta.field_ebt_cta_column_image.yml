@@ -1,4 +1,4 @@
-uuid: 28bcf3f5-5d17-4905-9fe5-07696cfda90a
+uuid: fa3f6b43-515b-431f-8b23-e10bc2b79bfc
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - block_content.type.ebt_cta
     - field.storage.block_content.field_ebt_cta_column_image
     - media.type.image
+_core:
+  default_config_hash: BhJzD_e2sAj1RN0VJgS6aMUtzNeUEopdiFutXxsCBAk
 id: block_content.ebt_cta.field_ebt_cta_column_image
 field_name: field_ebt_cta_column_image
 entity_type: block_content

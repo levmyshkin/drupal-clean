@@ -1,4 +1,4 @@
-uuid: 4bf5b4a4-4cd0-4030-9126-db9c82a52d8e
+uuid: 44178638-2b31-4343-9967-70aee18fc5d1
 langcode: en
 status: true
 dependencies:
@@ -16,49 +16,49 @@ third_party_settings:
       children:
         - group_content
         - group_settings
-      label: Tabs
-      region: content
       parent_name: ''
       weight: 3
       format_type: tabs
+      region: content
       format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
         direction: horizontal
         width_breakpoint: 120
+        id: ''
+        classes: ''
+        show_empty_fields: false
+      label: Tabs
     group_content:
       children:
         - field_ebt_carousel
-      label: Content
-      region: content
       parent_name: group_tabs
       weight: 20
       format_type: tab
+      region: content
       format_settings:
-        classes: ''
         show_empty_fields: false
         id: ''
-        formatter: closed
+        classes: ''
         description: ''
+        formatter: closed
         required_fields: true
+      label: Content
     group_settings:
       children:
         - field_ebt_settings
-      label: Settings
-      region: content
       parent_name: group_tabs
       weight: 21
       format_type: tab
+      region: content
       format_settings:
-        classes: ''
         show_empty_fields: false
         id: ''
-        formatter: closed
+        classes: ''
         description: ''
+        formatter: closed
         required_fields: true
+      label: Settings
 _core:
-  default_config_hash: SfsycMce7mbSGr-wUUple9hnZ7rGy-HhXRt44iDrc3Q
+  default_config_hash: QXlNXkmdvt1D3vvq3Xts_hS6xZcsvaZ_VMIpv7HSlJ4
 id: block_content.ebt_carousel.default
 targetEntityType: block_content
 bundle: ebt_carousel
@@ -67,7 +67,6 @@ content:
   field_ebt_carousel:
     type: entity_reference_paragraphs
     weight: 1
-    region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -76,12 +75,13 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
-  field_ebt_settings:
-    type: ebt_settings_carousel
-    weight: 2
     region: content
+  field_ebt_settings:
+    weight: 2
     settings: {  }
     third_party_settings: {  }
+    type: ebt_settings_carousel
+    region: content
   info:
     type: string_textfield
     weight: 0

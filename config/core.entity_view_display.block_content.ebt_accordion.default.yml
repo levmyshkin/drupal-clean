@@ -1,4 +1,4 @@
-uuid: f5fbfb5a-ace1-4c29-81a1-9beafc373fbc
+uuid: 18a50ec5-f5dd-4cca-9f9f-4537b92da726
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ dependencies:
     - ebt_core
     - entity_reference_revisions
 _core:
-  default_config_hash: KswwT3Pre7bX4vNdQH57nvPnTtaYDHr1dZl27EgCOPE
+  default_config_hash: RXj7D-M68hw9WGvtEpwV37scBWXQyVdxb1e0amtTWw8
 id: block_content.ebt_accordion.default
 targetEntityType: block_content
 bundle: ebt_accordion
@@ -18,18 +18,18 @@ mode: default
 content:
   field_ebt_accordion:
     type: entity_reference_revisions_entity_view
+    weight: 1
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 1
     region: content
   field_ebt_settings:
     type: ebt_settings_default
+    weight: 0
+    region: content
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 0
-    region: content
 hidden: {  }

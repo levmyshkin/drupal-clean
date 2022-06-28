@@ -1,9 +1,9 @@
-uuid: 65efb663-97b3-46eb-b7a5-91c9d73ce127
+uuid: 314b1e8b-8a4d-4fe6-ad20-92b4f966a801
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: BrZoscWM38J0033wJ5AKN_Bi1H50ktHAsflXwV9EkH4
+  default_config_hash: iMFaDQo65bEmi1PayMRtXjAxz_rhyMVgUGfUFEiCNvs
 id: ebt_timeline
 label: 'Timeline Event'
 icon_uuid: null

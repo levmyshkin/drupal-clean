@@ -1,4 +1,4 @@
-uuid: 9d4ab5af-4aca-4efa-9de2-6e00ba5c9a6e
+uuid: d8e5bd00-0174-464e-90a3-8e545d1ea6c9
 langcode: en
 status: true
 dependencies:
@@ -17,12 +17,12 @@ mode: default
 content:
   field_ebt_slideshow:
     type: entity_reference_revisions_entity_view
+    weight: 0
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 0
     region: content
 hidden:
   field_ebt_settings: true

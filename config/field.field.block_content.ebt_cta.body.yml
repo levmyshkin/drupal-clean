@@ -1,4 +1,4 @@
-uuid: 24864253-db0b-4d11-997f-b8752807a356
+uuid: a2770bc1-395e-4b73-b7c6-2f963956d448
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.body
   module:
     - text
+_core:
+  default_config_hash: Xswlt75VBfRWb1lhRxDCEdmO2MWrGjyFMGZtNtNvvhs
 id: block_content.ebt_cta.body
 field_name: body
 entity_type: block_content

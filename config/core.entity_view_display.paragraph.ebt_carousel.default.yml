@@ -1,4 +1,4 @@
-uuid: 590d8d60-3c74-485d-8714-ff9ad7f77cea
+uuid: d66aad57-48aa-40c0-9425-0464eb4ac548
 langcode: en
 status: true
 dependencies:
@@ -17,19 +17,19 @@ bundle: ebt_carousel
 mode: default
 content:
   field_ebt_carousel_caption:
-    type: text_default
+    weight: 1
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    type: text_default
     region: content
   field_ebt_carousel_image:
     type: media_thumbnail
+    weight: 0
     label: hidden
     settings:
-      image_link: ''
       image_style: ''
+      image_link: ''
     third_party_settings: {  }
-    weight: 0
     region: content
 hidden: {  }

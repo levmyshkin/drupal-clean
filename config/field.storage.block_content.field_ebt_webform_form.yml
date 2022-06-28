@@ -1,10 +1,12 @@
-uuid: e5d4c5f3-4e44-4809-8faf-e115f1deff60
+uuid: a2871504-8e93-47e2-a64a-cfa33bfe3ade
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
     - webform
+_core:
+  default_config_hash: K4nKI1yvxZ4s40vKrpuBiz09L15lK0ygK9etUTwYVRw
 id: block_content.field_ebt_webform_form
 field_name: field_ebt_webform_form
 entity_type: block_content

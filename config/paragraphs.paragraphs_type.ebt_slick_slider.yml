@@ -1,7 +1,9 @@
-uuid: e865eb13-553d-4677-908a-d1f887376060
+uuid: d93370c3-4369-455d-87af-f0a30b1920fc
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 7IpvZPMN9T939ox72-gNDYNrZIVrXQ7nlF-Pxkzq_7M
 id: ebt_slick_slider
 label: 'EBT Slick Slide'
 icon_uuid: null

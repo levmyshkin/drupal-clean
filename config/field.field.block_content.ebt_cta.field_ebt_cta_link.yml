@@ -1,4 +1,4 @@
-uuid: 14e09d8f-a031-4c67-a619-f921f2911812
+uuid: 0460ab56-4c60-4277-a6f6-95ada9dad7c3
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_ebt_cta_link
   module:
     - link
+_core:
+  default_config_hash: pihpEEuVb0fXy31ArKfD8zmqe5XQILgO4jjHI29n5HY
 id: block_content.ebt_cta.field_ebt_cta_link
 field_name: field_ebt_cta_link
 entity_type: block_content

@@ -1,4 +1,4 @@
-uuid: 11a0f0e8-a28e-483f-ac89-29a8c6ffa160
+uuid: 56fafe13-c23a-487e-8f18-42f6c47d2bb7
 langcode: en
 status: true
 dependencies:
@@ -9,28 +9,28 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: 9YdmYSbczD74WiGB9fkmJygI2DWUvLJtACIs6twWIpE
+  default_config_hash: VV4WvHQlFMN4Xl5jLocxzCyuI7nCn1nGWGmJZbXlG2Q
 id: paragraph.ebt_accordion.default
 targetEntityType: paragraph
 bundle: ebt_accordion
 mode: default
 content:
   field_ebt_accordion_text:
-    type: text_textarea
     weight: 1
-    region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-  field_ebt_accordion_title:
     type: text_textarea
-    weight: 0
     region: content
+  field_ebt_accordion_title:
+    weight: 0
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
+    type: text_textarea
+    region: content
 hidden:
   created: true
   status: true

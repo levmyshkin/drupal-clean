@@ -1,9 +1,9 @@
-uuid: ddc947c9-67c2-4ecd-85d6-9a1f5b5216cc
+uuid: be686f84-3482-447c-90d2-db38b0102697
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: twfmTMOCNDgr8doual0E0q6m48f3FIxGsmZSxlw9Hgw
+  default_config_hash: dB47Zxr808aSXzelLxShTOImxLGvz9ibkaPpIHw2XL8
 id: ebt_accordion
 label: 'EBT Accordion/FAQ'
 revision: 1

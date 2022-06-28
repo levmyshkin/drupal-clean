@@ -1,4 +1,4 @@
-uuid: 1cd6fa67-6171-41e7-9ea5-a344b39c1d33
+uuid: 5ef66986-6e51-4ee9-bf07-0f30f28c232e
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
   module:
     - media_library
     - text
+_core:
+  default_config_hash: CPeoWAUA9izHmyMsYjDmi9KVNQNuLhv5Y6xKAcGmzsg
 id: paragraph.ebt_slick_slider.default
 targetEntityType: paragraph
 bundle: ebt_slick_slider

@@ -1,4 +1,4 @@
-uuid: 3d3d89dd-f11c-449e-8781-6a6d9738d55f
+uuid: 433a1de2-0e96-4a0b-8510-f5e9e5dde50e
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - ebt_core
 _core:
-  default_config_hash: s8Ejr72c2fLfgHquuSsuxMilFY5_DUA8gMNz_ELobkY
+  default_config_hash: HN5G2K_JDpCXJ8t1Hf1GlS9QdBeEP63Bly-VhnBB6sc
 id: block_content.ebt_timeline.field_ebt_settings
 field_name: field_ebt_settings
 entity_type: block_content
@@ -17,11 +17,7 @@ label: 'Block settings'
 description: ''
 required: false
 translatable: true
-default_value:
-  -
-    option1: ''
-    option2: null
-    ebt_settings: {  }
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: ebt_settings

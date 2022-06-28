@@ -1,4 +1,4 @@
-uuid: 289a2b94-fbe3-435f-b550-1a0cc49e4217
+uuid: d69bb888-376f-4ee6-a137-513a3330d6bf
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.ebt_slick_slider
   module:
     - text
+_core:
+  default_config_hash: ob6mfPaJJwePb80FfSWg_M2reWUeqydWDbjtcshe-Bw
 id: paragraph.ebt_slick_slider.field_ebt_slick_slider_text
 field_name: field_ebt_slick_slider_text
 entity_type: paragraph

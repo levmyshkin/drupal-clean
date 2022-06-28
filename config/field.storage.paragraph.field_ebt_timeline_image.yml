@@ -1,4 +1,4 @@
-uuid: 3dd64589-29c4-4728-aab4-e6f7f559f4ea
+uuid: 9726c5e6-f48d-4caf-921a-72e5912280d7
 langcode: en
 status: true
 dependencies:
@@ -13,9 +13,6 @@ field_name: field_ebt_timeline_image
 entity_type: paragraph
 type: image
 settings:
-  target_type: file
-  display_field: false
-  display_default: false
   uri_scheme: public
   default_image:
     uuid: ''
@@ -23,6 +20,9 @@ settings:
     title: ''
     width: null
     height: null
+  target_type: file
+  display_field: false
+  display_default: false
 module: image
 locked: false
 cardinality: 1

@@ -1,4 +1,4 @@
-uuid: ae997087-09d9-4a08-9ccb-512b2c36e0fa
+uuid: 6f002c88-0fff-449c-92d1-33ce6d5ed030
 langcode: en
 status: true
 dependencies:
@@ -22,56 +22,56 @@ bundle: ebt_tab
 mode: default
 content:
   field_ebt_tab_block:
-    type: block_field_default
     weight: 7
-    region: content
     settings:
       plugin_id: ''
       settings: {  }
       configuration_form: full
     third_party_settings: {  }
-  field_ebt_tab_content:
-    type: options_select
-    weight: 1
+    type: block_field_default
     region: content
+  field_ebt_tab_content:
+    weight: 1
     settings: {  }
     third_party_settings: {  }
-  field_ebt_tab_page:
-    type: entity_reference_autocomplete
-    weight: 2
+    type: options_select
     region: content
+  field_ebt_tab_page:
+    weight: 2
     settings:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_ebt_tab_text:
-    type: text_textarea
-    weight: 3
+    type: entity_reference_autocomplete
     region: content
+  field_ebt_tab_text:
+    weight: 3
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-  field_ebt_tab_title:
-    type: text_textfield
-    weight: 0
+    type: text_textarea
     region: content
+  field_ebt_tab_title:
+    weight: 0
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_ebt_tab_views:
-    type: viewsreference_autocomplete
-    weight: 6
+    type: text_textfield
     region: content
+  field_ebt_tab_views:
+    weight: 6
     settings:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    type: viewsreference_autocomplete
+    region: content
 hidden:
   created: true
   status: true

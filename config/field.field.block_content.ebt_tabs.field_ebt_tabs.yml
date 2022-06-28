@@ -1,4 +1,4 @@
-uuid: ae855197-ed81-4e75-9d09-d03d1954352b
+uuid: e53a0355-bd5e-418a-9f73-2d7a24568204
 langcode: en
 status: true
 dependencies:
@@ -23,11 +23,11 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
+    negate: 0
     target_bundles:
       ebt_tab: ebt_tab
-    negate: 0
     target_bundles_drag_drop:
       ebt_tab:
-        weight: 2
         enabled: true
+        weight: 2
 field_type: entity_reference_revisions

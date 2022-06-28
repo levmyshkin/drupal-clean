@@ -1,4 +1,4 @@
-uuid: 7fcbec39-e85a-44cf-b13a-1beda7729f75
+uuid: 3ee86b08-794c-4747-966b-a5b8e9bf1b8f
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - ebt_core
 _core:
-  default_config_hash: BHakrloEuiOPVIrAJCA7WkIQAPe1Zs1d20TOSjx-YKM
+  default_config_hash: U2Ky-DS_Wo_f9KN2f-PSJN975w1XnGxWcaly7VF6-tU
 id: block_content.ebt_carousel.field_ebt_settings
 field_name: field_ebt_settings
 entity_type: block_content
@@ -17,11 +17,7 @@ label: 'Block settings'
 description: ''
 required: false
 translatable: true
-default_value:
-  -
-    option1: ''
-    option2: null
-    ebt_settings: {  }
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: ebt_settings

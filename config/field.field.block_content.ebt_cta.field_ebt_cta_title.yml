@@ -1,4 +1,4 @@
-uuid: 7c699174-8e11-475e-a749-39f3ad63cc1d
+uuid: 5a79e93f-41fe-4d33-82be-ba9710b5511d
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_ebt_cta_title
   module:
     - text
+_core:
+  default_config_hash: AKUtn2Ht2dlGYr9Y8at4yVXu5P1ozFKBdcgzWq44560
 id: block_content.ebt_cta.field_ebt_cta_title
 field_name: field_ebt_cta_title
 entity_type: block_content

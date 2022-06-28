@@ -1,7 +1,9 @@
-uuid: 5ae09700-ff87-4f30-8a7d-032aba7bd66a
+uuid: 3a7755f8-434f-4672-bda8-4c6c02e3e5ef
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: eTgR86D-XlSSjL0DOkUgyDx9iqTLZCeiiE1Wz1CNl8o
 id: ebt_basic_button
 label: 'EBT Basic Button'
 revision: 0

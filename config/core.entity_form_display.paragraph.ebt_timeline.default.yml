@@ -1,4 +1,4 @@
-uuid: 241894f2-3b77-48e1-950d-3967be3b34d3
+uuid: ff1b678c-058c-49e5-8072-8c753430c8a1
 langcode: en
 status: true
 dependencies:
@@ -21,44 +21,44 @@ bundle: ebt_timeline
 mode: default
 content:
   field_ebt_timeline_current:
-    type: boolean_checkbox
     weight: 4
-    region: content
     settings:
       display_label: true
     third_party_settings: {  }
-  field_ebt_timeline_date:
-    type: string_textfield
-    weight: 0
+    type: boolean_checkbox
     region: content
+  field_ebt_timeline_date:
+    weight: 0
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_ebt_timeline_image:
-    type: image_image
-    weight: 3
+    type: string_textfield
     region: content
+  field_ebt_timeline_image:
+    weight: 3
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-  field_ebt_timeline_text:
-    type: text_textarea
-    weight: 2
+    type: image_image
     region: content
+  field_ebt_timeline_text:
+    weight: 2
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-  field_ebt_timeline_title:
-    type: string_textfield
-    weight: 1
+    type: text_textarea
     region: content
+  field_ebt_timeline_title:
+    weight: 1
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    type: string_textfield
+    region: content
 hidden:
   created: true
   status: true

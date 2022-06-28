@@ -1,4 +1,4 @@
-uuid: dbd7627d-63b8-452a-a6b0-28dbdcb5e534
+uuid: 197444c4-858a-4bc4-9501-7c143d5f0d39
 langcode: en
 status: true
 dependencies:
@@ -11,15 +11,11 @@ dependencies:
     - field.field.block_content.ebt_cta.field_ebt_settings
   module:
     - ebt_core
-    - layout_builder
-    - layout_discovery
     - link
     - media
     - text
-third_party_settings:
-  layout_builder:
-    enabled: false
-    allow_custom: false
+_core:
+  default_config_hash: CMcaz-4cXyCclDGwCvelR5_1PBtg7dUSgRk-7XB0Yow
 id: block_content.ebt_cta.default
 targetEntityType: block_content
 bundle: ebt_cta

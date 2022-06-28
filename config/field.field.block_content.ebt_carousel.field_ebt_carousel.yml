@@ -1,4 +1,4 @@
-uuid: df9b1e71-28e0-435a-a398-28e5d1bb6ce5
+uuid: b73e9099-d413-4468-b9b4-b12d6d69e171
 langcode: en
 status: true
 dependencies:
@@ -23,16 +23,16 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
+    negate: 0
     target_bundles:
       ebt_carousel: ebt_carousel
-    negate: 0
     target_bundles_drag_drop:
       ebt_accordion:
         weight: 5
         enabled: false
       ebt_carousel:
-        weight: 6
         enabled: true
+        weight: 6
       ebt_slideshow:
         weight: 7
         enabled: false

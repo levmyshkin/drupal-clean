@@ -1,4 +1,4 @@
-uuid: 6371d5d4-01bc-492b-b01b-66e53bada5f7
+uuid: dd001d92-4362-42d2-b804-d4fc59d2a962
 langcode: en
 status: true
 dependencies:
@@ -16,49 +16,49 @@ third_party_settings:
       children:
         - group_content
         - group_settings
-      label: Tabs
-      region: content
       parent_name: ''
       weight: 2
       format_type: tabs
+      region: content
       format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
         direction: horizontal
         width_breakpoint: 120
+        id: ''
+        classes: ''
+        show_empty_fields: false
+      label: Tabs
     group_content:
       children:
         - field_ebt_accordion
-      label: Content
-      region: content
       parent_name: group_tabs
       weight: 20
       format_type: tab
+      region: content
       format_settings:
-        classes: ''
         show_empty_fields: false
         id: ''
-        formatter: closed
+        classes: ''
         description: ''
+        formatter: closed
         required_fields: true
+      label: Content
     group_settings:
       children:
         - field_ebt_settings
-      label: Settings
-      region: content
       parent_name: group_tabs
       weight: 21
       format_type: tab
+      region: content
       format_settings:
-        classes: ''
         show_empty_fields: false
         id: ''
-        formatter: closed
+        classes: ''
         description: ''
+        formatter: closed
         required_fields: true
+      label: Settings
 _core:
-  default_config_hash: 5RE9695cFtdNFIvbEfwygOC4bxBJ2y5AKz11Lt7kSqI
+  default_config_hash: F2nbj7fTPKGfb75oLWqFZ9-m5zHPtYZzFQbEvmruQzE
 id: block_content.ebt_accordion.default
 targetEntityType: block_content
 bundle: ebt_accordion
@@ -67,7 +67,6 @@ content:
   field_ebt_accordion:
     type: entity_reference_paragraphs
     weight: 1
-    region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -76,12 +75,13 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
-  field_ebt_settings:
-    type: ebt_settings_accordion
-    weight: 3
     region: content
+  field_ebt_settings:
+    weight: 3
     settings: {  }
     third_party_settings: {  }
+    type: ebt_settings_accordion
+    region: content
   info:
     type: string_textfield
     weight: 0

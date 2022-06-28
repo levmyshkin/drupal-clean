@@ -1,7 +1,9 @@
-uuid: 8f1b5a5a-5569-4fc9-bee0-a36a6400e862
+uuid: 15d50320-e566-410f-8e4b-b8e45c92897c
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 2zkdfRMnFwX0N2JCd1N-mTn2NTGgTRwRkfqW4Uiit8c
 name: slick_slider_card
 label: 'Slick Slider card'
 effects:

@@ -1,7 +1,9 @@
-uuid: ff085929-6579-4d1b-8973-1aa6a90ea26c
+uuid: 3cf2737f-8f43-4551-bec6-f306f671774e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: k3H_UHOSAmFpJw6LHD2vdsX3dZLNA5kNrXGpam98bHg
 id: ebt_webform
 label: 'EBT Webform'
 revision: 0

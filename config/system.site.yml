@@ -1,9 +1,9 @@
 _core:
-  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: c0754f6a-7c41-4a39-a6ef-68cff5645b6c
-name: 'Drupal Clean'
-mail: admin@example.com
+uuid: 23e346ce-64c4-4f81-b84d-ceae4202d7e3
+name: 'Drupal PHPUnit testing'
+mail: asdfas@asdf.com
 slogan: ''
 page:
   403: ''

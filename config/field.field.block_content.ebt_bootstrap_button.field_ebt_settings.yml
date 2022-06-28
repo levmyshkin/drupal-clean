@@ -1,4 +1,4 @@
-uuid: 97ce1670-aa29-4d91-8d75-ffcbb0b3915c
+uuid: e112b45d-d98e-47ab-b9b6-ec5466358e64
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_ebt_settings
   module:
     - ebt_core
+_core:
+  default_config_hash: '-6S_O_kYEPD4uAw2AnjYuYGHz_CMhBBvkkO5sJA1DYg'
 id: block_content.ebt_bootstrap_button.field_ebt_settings
 field_name: field_ebt_settings
 entity_type: block_content
@@ -15,34 +17,7 @@ label: 'Block settings'
 description: ''
 required: false
 translatable: true
-default_value:
-  -
-    ebt_settings:
-      design_options:
-        box1:
-          margin_top: ''
-          margin_right: ''
-          margin_bottom: ''
-          margin_left: ''
-          box2:
-            border_top: ''
-            border_right: ''
-            border_bottom: ''
-            border_left: ''
-            box3:
-              padding_top: ''
-              padding_right: ''
-              padding_bottom: ''
-              padding_left: ''
-        other_settings:
-          border_color: ''
-          border_style: solid
-          border_radius: none
-          background_color: ''
-          background_media: null
-          background_image_style: default
-          edge_to_edge: 0
-          container_width: auto
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: ebt_settings

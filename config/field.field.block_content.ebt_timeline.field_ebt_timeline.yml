@@ -1,4 +1,4 @@
-uuid: f181a4ca-5473-439d-8488-7f129335d5fc
+uuid: fc5a6607-e308-439a-830d-85e577d01594
 langcode: en
 status: true
 dependencies:
@@ -23,9 +23,9 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
+    negate: 0
     target_bundles:
       ebt_timeline: ebt_timeline
-    negate: 0
     target_bundles_drag_drop:
       ebt_accordion:
         weight: 6
@@ -40,6 +40,6 @@ settings:
         weight: 9
         enabled: false
       ebt_timeline:
-        weight: 10
         enabled: true
+        weight: 10
 field_type: entity_reference_revisions

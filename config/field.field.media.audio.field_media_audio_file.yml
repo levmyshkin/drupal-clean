@@ -1,4 +1,4 @@
-uuid: 39d61042-5912-476d-bcb2-a2d4ea8f2be8
+uuid: 426fd04b-3715-44af-bddb-2e5077757438
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - file
 _core:
-  default_config_hash: sI-7KvS4Qbg6EucALXjwYEotxgxUfH-bMC19yTpZ1kw
+  default_config_hash: UlZPIbHcLyNqGY5bvydCTijGcKDmwn4Fo8oYZT85wlk
 id: media.audio.field_media_audio_file
 field_name: field_media_audio_file
 entity_type: media

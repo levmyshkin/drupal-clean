@@ -1,10 +1,12 @@
-uuid: 7c93e770-f13a-442d-90f5-a83fa653ba63
+uuid: cc8b7f04-17e0-47a3-8cb9-7fa784d541fd
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
     - text
+_core:
+  default_config_hash: QzI1KYIZiUFHadsdJPmZk_6XW4wCrROvPpgDNWpBa8M
 id: block_content.field_ebt_cta_title
 field_name: field_ebt_cta_title
 entity_type: block_content

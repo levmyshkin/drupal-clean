@@ -1,7 +1,9 @@
-uuid: bf60eefe-e857-4066-b0e3-676754daece6
+uuid: 6633fa9a-cef9-40b7-bfb6-d8576c1398d4
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: k9yRFHPv-0cHC5GXpNilObPbaFf1SBRHn-asOPpDpPA
 id: ebt_cta
 label: 'EBT Call to Action (CTA)'
 revision: 1

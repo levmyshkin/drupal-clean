@@ -1,4 +1,4 @@
-uuid: d4eda774-b8de-430b-a430-f04f43ea8303
+uuid: d397108c-db96-4885-8570-0a47066377bc
 langcode: en
 status: true
 dependencies:
@@ -16,64 +16,63 @@ third_party_settings:
       children:
         - group_content
         - group_settings
-      label: Tabs
-      region: content
       parent_name: ''
       weight: 1
       format_type: tabs
+      region: content
       format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
         direction: horizontal
         width_breakpoint: 120
+        id: ''
+        classes: ''
+        show_empty_fields: false
+      label: Tabs
     group_content:
       children:
         - field_ebt_slideshow
-      label: Content
-      region: content
       parent_name: group_tabs
       weight: 20
       format_type: tab
+      region: content
       format_settings:
-        classes: ''
         show_empty_fields: false
         id: ''
-        formatter: closed
+        classes: ''
         description: ''
+        formatter: closed
         required_fields: true
+      label: Content
     group_settings:
       children:
         - field_ebt_settings
-      label: Settings
-      region: content
       parent_name: group_tabs
       weight: 21
       format_type: tab
+      region: content
       format_settings:
-        classes: ''
         show_empty_fields: false
         id: ''
-        formatter: closed
+        classes: ''
         description: ''
+        formatter: closed
         required_fields: true
+      label: Settings
 _core:
-  default_config_hash: I8gjMzjTBfGX-_znPJHL1paeMdxnFTkVoDRcAODChaY
+  default_config_hash: 6DA12pCUzWErNlrzV5uI2gCLocIzFk1R4r6_m3BD42A
 id: block_content.ebt_slideshow.default
 targetEntityType: block_content
 bundle: ebt_slideshow
 mode: default
 content:
   field_ebt_settings:
-    type: ebt_settings_slideshow
     weight: 22
-    region: content
     settings: {  }
     third_party_settings: {  }
+    type: ebt_settings_slideshow
+    region: content
   field_ebt_slideshow:
     type: entity_reference_paragraphs
     weight: 21
-    region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -82,6 +81,7 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    region: content
   info:
     type: string_textfield
     weight: 0

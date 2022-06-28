@@ -1,4 +1,4 @@
-uuid: 5fcac5da-442f-4fd5-ba94-3b8271811811
+uuid: aa8c6dd7-b2ee-48c3-aa67-58ba8fcd75c3
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.block_content.field_ebt_webform_popup_form
   module:
     - webform
+_core:
+  default_config_hash: XKxb-rFq0rOSgKq7mU1s79aoU0-O0IeICu_ZMzj9vG8
 id: block_content.ebt_webform_popup.field_ebt_webform_popup_form
 field_name: field_ebt_webform_popup_form
 entity_type: block_content

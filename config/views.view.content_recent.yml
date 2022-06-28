@@ -1,4 +1,4 @@
-uuid: c51a3a26-02df-4b55-b657-20254da466cf
+uuid: cc4e721b-aa67-4f69-a85f-6154ed7b9a63
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: WcPHVX22kSGXryM_X9lWjOhtBu1m_gkigW0VHADEBoM
+  default_config_hash: YqZN5rc7XDQcFcInc8wkzuaHJmC5YvirhTmDcrarT6M
 id: content_recent
 label: 'Recent content'
 module: node

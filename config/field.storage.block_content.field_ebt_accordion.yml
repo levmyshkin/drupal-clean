@@ -1,4 +1,4 @@
-uuid: 551734c7-ab4e-4516-bdd9-fa9180ce9013
+uuid: 64248c94-ebe4-44fe-8d75-20a3e66bea07
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - entity_reference_revisions
     - paragraphs
 _core:
-  default_config_hash: YWqjE5J-rzo_zg_kNKf7zVLWqnhlSunKApFoDdklLmI
+  default_config_hash: '-9lmszSGOf8FvJqERXt4Y75SqfNFnjrUmffe3mvm63E'
 id: block_content.field_ebt_accordion
 field_name: field_ebt_accordion
 entity_type: block_content

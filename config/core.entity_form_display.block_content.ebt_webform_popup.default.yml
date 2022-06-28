@@ -1,4 +1,4 @@
-uuid: cd21b1be-e33c-42ba-87fb-6f48749bac19
+uuid: 3c7d395f-cec9-454b-ab60-b3a4898554cb
 langcode: en
 status: true
 dependencies:
@@ -9,25 +9,27 @@ dependencies:
   module:
     - ebt_webform_popup
     - webform
+_core:
+  default_config_hash: '-EvEMaGTSq7rxJjzGuhqBIybUTNrM39BXJjRKhFkDos'
 id: block_content.ebt_webform_popup.default
 targetEntityType: block_content
 bundle: ebt_webform_popup
 mode: default
 content:
   field_ebt_settings:
-    type: ebt_settings_webform_popup
     weight: 28
-    region: content
     settings: {  }
     third_party_settings: {  }
-  field_ebt_webform_popup_form:
-    type: webform_entity_reference_select
-    weight: 27
+    type: ebt_settings_webform_popup
     region: content
+  field_ebt_webform_popup_form:
+    weight: 27
     settings:
       default_data: true
       webforms: {  }
     third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
   info:
     type: string_textfield
     weight: -5

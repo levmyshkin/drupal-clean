@@ -1,4 +1,4 @@
-uuid: a2eec758-3e24-4bf5-9bea-529be7239033
+uuid: e8b4379e-7881-4d98-a7f3-ae5effa16daf
 langcode: en
 status: true
 dependencies:
@@ -16,64 +16,63 @@ third_party_settings:
       children:
         - group_content
         - group_settings
-      label: Tabs
-      region: content
       parent_name: ''
       weight: 3
       format_type: tabs
+      region: content
       format_settings:
-        classes: ''
         show_empty_fields: false
         id: ''
+        classes: ''
         direction: horizontal
         width_breakpoint: 120
+      label: Tabs
     group_content:
       children:
         - field_ebt_tabs
-      label: Content
-      region: content
       parent_name: group_tabs
       weight: 4
       format_type: tab
+      region: content
       format_settings:
-        classes: ''
         show_empty_fields: false
         id: ''
-        formatter: closed
+        classes: ''
         description: ''
+        formatter: closed
         required_fields: true
+      label: Content
     group_settings:
       children:
         - field_ebt_settings
-      label: Settings
-      region: content
       parent_name: group_tabs
       weight: 5
       format_type: tab
+      region: content
       format_settings:
-        classes: ''
         show_empty_fields: false
         id: ''
-        formatter: closed
+        classes: ''
         description: ''
+        formatter: closed
         required_fields: true
+      label: Settings
 _core:
-  default_config_hash: yxDvdziWFOafAoECh0xjgY8QpCZkI-qW9faOTysDyjc
+  default_config_hash: FiD2k00iSxydyLNXRexQsZwtt3kdC7yWjKnIE2TPsds
 id: block_content.ebt_tabs.default
 targetEntityType: block_content
 bundle: ebt_tabs
 mode: default
 content:
   field_ebt_settings:
-    type: ebt_settings_tabs
     weight: 2
-    region: content
     settings: {  }
     third_party_settings: {  }
+    type: ebt_settings_tabs
+    region: content
   field_ebt_tabs:
     type: entity_reference_paragraphs
     weight: 1
-    region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -82,6 +81,7 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    region: content
   info:
     type: string_textfield
     weight: 0

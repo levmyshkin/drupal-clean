@@ -1,4 +1,4 @@
-uuid: 2302c8d5-0595-4148-8faf-7c3a2f6c9a49
+uuid: 36b34ed7-d7d5-426a-bd90-ae8af8373333
 langcode: en
 status: true
 dependencies:
@@ -18,18 +18,18 @@ mode: default
 content:
   field_ebt_carousel:
     type: entity_reference_revisions_entity_view
+    weight: 0
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 0
     region: content
   field_ebt_settings:
     type: ebt_settings_default
+    weight: 1
+    region: content
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
-    region: content
 hidden: {  }

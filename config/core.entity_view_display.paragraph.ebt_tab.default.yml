@@ -1,4 +1,4 @@
-uuid: 0f3ee547-befd-42e7-8847-2a1078f8ec7c
+uuid: d7e9ad00-21f6-4639-880a-06754351c09e
 langcode: en
 status: true
 dependencies:
@@ -22,43 +22,43 @@ bundle: ebt_tab
 mode: default
 content:
   field_ebt_tab_block:
-    type: block_field
+    weight: 6
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 6
+    type: block_field
     region: content
   field_ebt_tab_page:
-    type: entity_reference_entity_view
+    weight: 1
     label: hidden
     settings:
-      view_mode: default
       link: true
+      view_mode: default
     third_party_settings: {  }
-    weight: 1
+    type: entity_reference_entity_view
     region: content
   field_ebt_tab_text:
-    type: text_default
+    weight: 2
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    type: text_default
     region: content
   field_ebt_tab_title:
-    type: text_default
+    weight: 0
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    type: text_default
     region: content
   field_ebt_tab_views:
-    type: viewsreference_formatter
+    weight: 5
     label: hidden
     settings:
       plugin_types:
         - block
     third_party_settings: {  }
-    weight: 5
+    type: viewsreference_formatter
     region: content
 hidden:
   field_ebt_tab_content: true

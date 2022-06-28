@@ -1,9 +1,9 @@
-uuid: 28fde3de-4855-4084-9e75-52fbc8447e8e
+uuid: b62d44aa-83fa-491d-8998-2567e819435d
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: hJgLMrvSl5_CWEzIn-1yfn5P0iuhfQb4wZcycJKfbMU
+  default_config_hash: LZdl-J3vsLTeTZ_d9ZhnXmk-FHgrTXPBXZDL_8rhHP4
 id: ebt_accordion
 label: 'Accordion section / FAQ section'
 icon_uuid: null

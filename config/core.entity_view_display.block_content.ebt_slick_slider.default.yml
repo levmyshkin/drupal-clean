@@ -1,4 +1,4 @@
-uuid: f3a43193-b769-4271-8d21-020992db2a18
+uuid: 9083a00e-2c04-47a6-8002-222cf0d5199c
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
     - ebt_core
     - entity_reference_revisions
     - text
+_core:
+  default_config_hash: hPQzjkILUgWxfntdmuZ6HzJR7VFbSsJzCXcSrlrzRdY
 id: block_content.ebt_slick_slider.default
 targetEntityType: block_content
 bundle: ebt_slick_slider

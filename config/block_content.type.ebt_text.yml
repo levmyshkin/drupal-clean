@@ -1,7 +1,9 @@
-uuid: a3c33ec3-7b1a-4d4b-b209-24b97bf14aca
+uuid: 18b3f276-3a36-47fb-baa0-a294afbfd09b
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: EfDKjvl4An381lwiUletrxyYGHVSXr0ylsIz7wG4FkM
 id: ebt_text
 label: 'EBT Text'
 revision: 1

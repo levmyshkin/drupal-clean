@@ -1,4 +1,4 @@
-uuid: 36aca333-8329-4632-8996-512ce9ebb325
+uuid: 4702d376-88bd-4779-a35e-09cd03a3441b
 langcode: en
 status: true
 dependencies:
@@ -19,25 +19,25 @@ mode: default
 content:
   field_ebt_slideshow_slide:
     type: media_thumbnail
+    weight: 0
     label: visually_hidden
     settings:
-      image_link: ''
       image_style: ''
+      image_link: ''
     third_party_settings: {  }
-    weight: 0
     region: content
   field_ebt_slideshow_text:
-    type: text_default
+    weight: 2
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    type: text_default
     region: content
   field_ebt_slideshow_title:
-    type: text_default
+    weight: 1
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    type: text_default
     region: content
 hidden: {  }

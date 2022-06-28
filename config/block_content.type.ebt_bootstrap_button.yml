@@ -1,7 +1,9 @@
-uuid: 6d88df48-9ffc-4ba6-b222-3fac934a1795
+uuid: c6510bc6-2f94-4b81-9542-98db702b1a85
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: EPwbWyfVd_vUMqmDcQcJd9ww6p2h7kUQTny9S5dPxXQ
 id: ebt_bootstrap_button
 label: 'EBT Bootstrap Button'
 revision: 0

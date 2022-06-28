@@ -1,4 +1,4 @@
-uuid: 5ffd6a32-9aba-4fa4-b525-29e49ba37f44
+uuid: cad473aa-6c78-4a18-979d-edd1db208409
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: VIpq338iDY44n8oN2pWcgmjG-N78rGwUV_ZVVbTvQ_g
+  default_config_hash: n7mRjNYFwMUo0LSa9n0_akiTEhGDbhdZcN2qX7LFg2U
 id: paragraph.ebt_accordion.field_ebt_accordion_title
 field_name: field_ebt_accordion_title
 entity_type: paragraph
