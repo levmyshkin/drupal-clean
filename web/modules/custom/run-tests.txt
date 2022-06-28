@@ -6,3 +6,21 @@ vendor/bin/phpunit --filter testReactionRulePage
 
 ../../vendor/bin/phpunit --filter testInstallation ../modules/custom/ebt_core/tests/src/Functional/InstallTest.php
 ../../vendor/bin/phpunit --filter testUninstall ../modules/custom/ebt_core/tests/src/Functional/UninstallTest.php
+
+../../vendor/bin/phpunit --group ebt_core
+
+
+
+../../vendor/bin/phpunit ../modules/custom/ebt_accordion/tests/src/Functional/InstallTest.php && \
+../../vendor/bin/phpunit ../modules/custom/ebt_basic_button/tests/src/Functional/InstallTest.php && \
+../../vendor/bin/phpunit ../modules/custom/ebt_bootstrap_button/tests/src/Functional/InstallTest.php && \
+../../vendor/bin/phpunit ../modules/custom/ebt_carousel/tests/src/Functional/InstallTest.php && \
+../../vendor/bin/phpunit ../modules/custom/ebt_core/tests/src/Functional/InstallTest.php && \
+../../vendor/bin/phpunit ../modules/custom/ebt_cta/tests/src/Functional/InstallTest.php && \
+../../vendor/bin/phpunit ../modules/custom/ebt_slick_slider/tests/src/Functional/InstallTest.php && \
+../../vendor/bin/phpunit ../modules/custom/ebt_slideshow/tests/src/Functional/InstallTest.php && \
+../../vendor/bin/phpunit ../modules/custom/ebt_tabs/tests/src/Functional/InstallTest.php && \
+../../vendor/bin/phpunit ../modules/custom/ebt_text/tests/src/Functional/InstallTest.php && \
+../../vendor/bin/phpunit ../modules/custom/ebt_timeline/tests/src/Functional/InstallTest.php && \
+../../vendor/bin/phpunit ../modules/custom/ebt_webform/tests/src/Functional/InstallTest.php && \
+../../vendor/bin/phpunit ../modules/custom/ebt_webform_popup/tests/src/Functional/InstallTest.php

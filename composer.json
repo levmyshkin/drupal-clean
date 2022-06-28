@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.0",
         "drupal/block_field": "^1.0",
         "drupal/bootstrap5": "^1.1",
@@ -52,6 +53,7 @@
         "sort-packages": true,
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "dealerdirect/phpcodesniffer-composer-installer": true
@@ -61,6 +63,12 @@
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
+            }
+        },
+        "enable-patching": true,
+        "patches": {
+            "drupal/viewsreference": {
+                "Implement configuration schema for Views reference field": "https://www.drupal.org/files/issues/2020-07-16/2957529-10.viewsreference.patch"
             }
         },
         "installer-paths": {
