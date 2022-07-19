@@ -1,0 +1,6 @@
+https://github.com/mglaman/drupal-check
+
+composer require mglaman/drupal-check --dev
+
+
+php vendor/bin/drupal-check web/modules/custom/ebt_core

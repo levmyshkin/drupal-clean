@@ -10,6 +10,7 @@ vendor/bin/phpunit --filter testReactionRulePage
 ../../vendor/bin/phpunit --group ebt_core
 
 
+cd web/core
 
 ../../vendor/bin/phpunit ../modules/custom/ebt_accordion/tests/src/Functional/InstallTest.php && \
 ../../vendor/bin/phpunit ../modules/custom/ebt_basic_button/tests/src/Functional/InstallTest.php && \
