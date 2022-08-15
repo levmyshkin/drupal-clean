@@ -37,6 +37,7 @@
         "drupal/viewsreference": "^2.0",
         "drupal/webform": "^6.1",
         "drush/drush": "^10.6",
+        "levmyshkin/dreadmore": "^2.1",
         "levmyshkin/flexslider": "^2.7",
         "levmyshkin/jquery-colorpicker": "^1.0",
         "levmyshkin/jquery-mb-ytplayer": "^3.3",

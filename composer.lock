@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8dc1950704ec7228d109d6ef8554af32",
+    "content-hash": "269406f31987ad9452528fb31c39e37c",
     "packages": [
         {
             "name": "ajgl/breakpoint-twig-extension",
@@ -4961,6 +4961,37 @@
                 }
             ],
             "time": "2021-07-09T08:23:52+00:00"
+        },
+        {
+            "name": "levmyshkin/dreadmore",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/levmyshkin/dreadmore.git",
+                "reference": "0ebe11c722cbd8fbf33a524637c10c45b24e0e48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/levmyshkin/dreadmore/zipball/0ebe11c722cbd8fbf33a524637c10c45b24e0e48",
+                "reference": "0ebe11c722cbd8fbf33a524637c10c45b24e0e48",
+                "shasum": ""
+            },
+            "type": "drupal-library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The plugin for collapsing and expanding long blocks of text. You can DISABLE it using CSS!",
+            "support": {
+                "source": "https://github.com/levmyshkin/dreadmore/tree/2.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://www.buymeacoffee.com/DSekon",
+                    "type": "custom"
+                }
+            ],
+            "time": "2022-08-08T11:51:00+00:00"
         },
         {
             "name": "levmyshkin/flexslider",
