@@ -1,4 +1,4 @@
-uuid: 83c8966e-2757-4a69-ba62-eb2dedae4439
+uuid: a0ace4c8-e063-4928-8285-f3fab863721f
 langcode: en
 status: true
 dependencies:
@@ -16,10 +16,10 @@ bundle: ebt_basic_button
 label: 'Button LInk'
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  link_type: 17
   title: 2
+  link_type: 17
 field_type: link
