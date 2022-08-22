@@ -1,4 +1,4 @@
-uuid: c0f6cf5c-0d1a-4d88-bad5-1b2da7a5d48c
+uuid: 5add34bb-3d35-4d64-afca-db5429d6628c
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
   module:
     - ebt_core
 _core:
-  default_config_hash: YIrMWNLT6TiXF-tmAzVOGQaDbDkIa_qy9_KBL0B4TxA
+  default_config_hash: s3hJiq6lEshrT0jmw07HSCggDetCw5gxSMQk43T7XjM
 id: block_content.ebt_slick_slider.field_ebt_settings
 field_name: field_ebt_settings
 entity_type: block_content
@@ -17,7 +17,35 @@ label: 'Block settings'
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    ebt_settings:
+      pass_options_to_javascript: false
+      design_options:
+        box1:
+          margin_top: ''
+          margin_right: ''
+          margin_bottom: ''
+          margin_left: ''
+          box2:
+            border_top: ''
+            border_right: ''
+            border_bottom: ''
+            border_left: ''
+            box3:
+              padding_top: ''
+              padding_right: ''
+              padding_bottom: ''
+              padding_left: ''
+        other_settings:
+          border_color: ''
+          border_style: solid
+          border_radius: none
+          background_color: ''
+          background_media: null
+          background_image_style: default
+          edge_to_edge: 0
+          container_width: auto
 default_value_callback: ''
 settings: {  }
 field_type: ebt_settings

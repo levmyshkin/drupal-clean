@@ -1,4 +1,4 @@
-uuid: aa8c6dd7-b2ee-48c3-aa67-58ba8fcd75c3
+uuid: 1ac6a489-341e-48df-b6d5-fde5c1b7e0e7
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ bundle: ebt_webform_popup
 label: Webform
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

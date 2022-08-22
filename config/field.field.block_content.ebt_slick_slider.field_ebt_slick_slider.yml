@@ -1,4 +1,4 @@
-uuid: 262f618c-6e81-4e9f-8f13-96bdbc6afaa4
+uuid: 8472f3b6-c564-4c19-a7d9-6914742ce81c
 langcode: en
 status: true
 dependencies:
@@ -17,7 +17,7 @@ bundle: ebt_slick_slider
 label: 'Slick Slider'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
