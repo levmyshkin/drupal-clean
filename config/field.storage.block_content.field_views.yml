@@ -1,0 +1,21 @@
+uuid: fcfbf90f-4412-4b4f-a338-7c261acc60ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - views
+    - viewsreference
+id: block_content.field_views
+field_name: field_views
+entity_type: block_content
+type: viewsreference
+settings:
+  target_type: view
+module: viewsreference
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
