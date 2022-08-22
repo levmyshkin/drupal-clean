@@ -1,4 +1,4 @@
-uuid: 3915fcdd-7c2d-4e14-be9c-51465f39cebf
+uuid: cedb2ce1-bd92-4e48-ba8c-43fe9fe26aef
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - asdfas@asdf.com
+  - admin@asdf.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'
