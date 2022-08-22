@@ -20,6 +20,7 @@
         "drupal/admin_toolbar": "^3.0",
         "drupal/block_field": "^1.0",
         "drupal/bootstrap5": "^1.1",
+        "drupal/config_inspector": "^2.1",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-dev": "^9.4",
         "drupal/core-project-message": "^9.4",
@@ -68,9 +69,7 @@
         },
         "enable-patching": true,
         "patches": {
-            "drupal/viewsreference": {
-                "Implement configuration schema for Views reference field": "https://www.drupal.org/files/issues/2020-07-16/2957529-10.viewsreference.patch"
-            }
+
         },
         "installer-paths": {
             "web/core": [
