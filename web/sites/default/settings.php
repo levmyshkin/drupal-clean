@@ -806,7 +806,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 $databases['default']['default'] = array (
   // drupal-clean
   // simpletest-db
-  'database' => 'simpletest-db',
+  'database' => 'drupal-clean',
   'username' => 'laptop',
   'password' => 'qpzm1235',
   'prefix' => '',

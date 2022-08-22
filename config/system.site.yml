@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 23e346ce-64c4-4f81-b84d-ceae4202d7e3
-name: 'Drupal PHPUnit testing'
-mail: asdfas@asdf.com
+uuid: 8ce89c89-24bf-4355-a685-69ceca72a899
+name: 'Drupal 9.4'
+mail: admin@asdf.com
 slogan: ''
 page:
   403: ''
