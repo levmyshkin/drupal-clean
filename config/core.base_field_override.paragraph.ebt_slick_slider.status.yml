@@ -1,0 +1,22 @@
+uuid: 0313c26e-72ab-4b7f-92c0-9d7e20d581a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.ebt_slick_slider
+id: paragraph.ebt_slick_slider.status
+field_name: status
+entity_type: paragraph
+bundle: ebt_slick_slider
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

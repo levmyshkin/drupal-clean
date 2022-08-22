@@ -1,0 +1,18 @@
+uuid: 81cec211-6fec-48c4-ae14-fc4ef359a7a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_text
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.ebt_text
+target_entity_type_id: block_content
+target_bundle: ebt_text
+default_langcode: site_default
+language_alterable: true

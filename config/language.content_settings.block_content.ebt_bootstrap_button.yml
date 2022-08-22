@@ -1,0 +1,18 @@
+uuid: 148d4d17-a3c8-4d33-8edd-2989412a5d68
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_bootstrap_button
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.ebt_bootstrap_button
+target_entity_type_id: block_content
+target_bundle: ebt_bootstrap_button
+default_langcode: site_default
+language_alterable: true

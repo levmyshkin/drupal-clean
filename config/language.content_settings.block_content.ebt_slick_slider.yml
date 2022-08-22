@@ -1,0 +1,18 @@
+uuid: 8977c6b2-741d-4f42-90c4-b7703b1c179a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_slick_slider
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.ebt_slick_slider
+target_entity_type_id: block_content
+target_bundle: ebt_slick_slider
+default_langcode: site_default
+language_alterable: true

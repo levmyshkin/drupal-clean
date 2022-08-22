@@ -1,0 +1,10 @@
+settings:
+  allowed_values:
+    -
+      label: Текст
+    -
+      label: Страница
+    -
+      label: Блок
+    -
+      label: Представления
