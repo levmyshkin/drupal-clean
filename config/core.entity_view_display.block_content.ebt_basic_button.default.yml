@@ -1,4 +1,4 @@
-uuid: b42f8884-bc1e-43f7-80ba-88418cfe219c
+uuid: f63a2e69-2aa9-45f4-9ca4-514fd35f21ab
 langcode: en
 status: true
 dependencies:
@@ -17,7 +17,7 @@ bundle: ebt_basic_button
 mode: default
 content:
   field_ebt_basic_button_link:
-    weight: 1
+    type: link
     label: hidden
     settings:
       trim_length: 800
@@ -26,13 +26,14 @@ content:
       rel: '0'
       target: '0'
     third_party_settings: {  }
-    type: link
+    weight: 1
     region: content
   field_ebt_settings:
-    weight: 2
+    type: ebt_settings_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: ebt_settings_default
+    weight: 2
     region: content
-hidden: {  }
+hidden:
+  langcode: true
