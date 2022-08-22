@@ -1,4 +1,4 @@
-uuid: 6269bff9-7d85-4c1f-85e4-651f060ca2d4
+uuid: aea812b5-204b-4b73-bdd6-81a915e18568
 langcode: en
 status: true
 dependencies:
@@ -26,3 +26,4 @@ content:
     region: content
 hidden:
   field_ebt_settings: true
+  langcode: true

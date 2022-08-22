@@ -1,4 +1,4 @@
-uuid: 9029c75e-7544-420e-870a-9aa16a9d0853
+uuid: 7596309f-dacf-4510-ba93-bee6cd978d68
 langcode: en
 status: true
 dependencies:
@@ -19,25 +19,26 @@ bundle: ebt_webform
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 0
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
   field_ebt_settings:
-    weight: 3
+    type: ebt_settings_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: ebt_settings_default
+    weight: 3
     region: content
   field_ebt_webform_form:
-    weight: 2
+    type: webform_entity_reference_entity_view
     label: hidden
     settings:
       source_entity: true
     third_party_settings: {  }
-    type: webform_entity_reference_entity_view
+    weight: 2
     region: content
-hidden: {  }
+hidden:
+  langcode: true

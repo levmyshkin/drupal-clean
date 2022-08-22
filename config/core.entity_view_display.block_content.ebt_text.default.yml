@@ -1,4 +1,4 @@
-uuid: ba81837f-17a7-4b1f-ba9a-beacc4a2d8ff
+uuid: 74a571a8-e423-45e4-9e72-cb7334fa4014
 langcode: en
 status: true
 dependencies:
@@ -17,17 +17,18 @@ bundle: ebt_text
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 0
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
   field_ebt_settings:
-    weight: 1
+    type: ebt_settings_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: ebt_settings_default
+    weight: 1
     region: content
-hidden: {  }
+hidden:
+  langcode: true
