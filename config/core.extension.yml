@@ -12,6 +12,8 @@ module:
   ckeditor: 0
   comment: 0
   config: 0
+  config_inspector: 0
+  config_translation: 0
   contact: 0
   contextual: 0
   datetime: 0
@@ -43,7 +45,11 @@ module:
   jquery_ui: 0
   jquery_ui_accordion: 0
   jquery_ui_tabs: 0
+  language: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
+  locale: 0
   media: 0
   media_library: 0
   media_library_form_element: 0
@@ -63,11 +69,11 @@ module:
   text: 0
   toolbar: 0
   tour: 0
-  update: 0
   user: 0
   views_ui: 0
   viewsreference: 0
   webform: 0
+  content_translation: 10
   views: 10
   paragraphs: 11
   standard: 1000
