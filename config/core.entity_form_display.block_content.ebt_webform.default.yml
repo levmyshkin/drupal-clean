@@ -1,4 +1,4 @@
-uuid: aa6a7787-b4f3-482a-af8e-361873324863
+uuid: f1c0c74c-8596-4e99-a528-bb059212655f
 langcode: en
 status: true
 dependencies:
@@ -21,27 +21,27 @@ content:
   body:
     type: text_textarea_with_summary
     weight: 26
+    region: content
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-    region: content
   field_ebt_settings:
+    type: ebt_settings_default
     weight: 29
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: ebt_settings_default
-    region: content
   field_ebt_webform_form:
+    type: webform_entity_reference_select
     weight: 28
+    region: content
     settings:
       default_data: true
       webforms: {  }
     third_party_settings: {  }
-    type: webform_entity_reference_select
-    region: content
   info:
     type: string_textfield
     weight: -5
@@ -49,5 +49,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }
