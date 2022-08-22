@@ -1,4 +1,4 @@
-uuid: 357c61c9-e296-424a-ba9c-81406a8cdaa5
+uuid: e7d39cec-513a-44b8-adfb-67e123d818e2
 langcode: en
 status: true
 dependencies:
@@ -23,10 +23,33 @@ settings:
   handler: 'default:view'
   handler_settings:
     target_bundles: null
-    auto_create: false
+    auto_create: 0
   plugin_types:
     default: default
     block: block
-  preselect_views: {  }
-  enabled_settings: {  }
+    page: 0
+    feed: 0
+    embed: 0
+  preselect_views:
+    articles: 0
+    block_content: 0
+    comment: 0
+    comments_recent: 0
+    content: 0
+    content_recent: 0
+    did_this_help: 0
+    files: 0
+    frontpage: 0
+    taxonomy_term: 0
+    user_admin_people: 0
+    watchdog: 0
+    webform_submissions: 0
+    who_s_new: 0
+    who_s_online: 0
+  enabled_settings:
+    pager: 0
+    limit: 0
+    offset: 0
+    title: 0
+    argument: 0
 field_type: viewsreference

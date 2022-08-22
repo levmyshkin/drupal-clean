@@ -1,4 +1,4 @@
-uuid: 95f782b3-bbdc-4952-83c1-766f51d13526
+uuid: e096767c-20a9-4836-aa2d-341e8ae206fd
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ bundle: article
 label: Comments
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value:
   -
     status: 2

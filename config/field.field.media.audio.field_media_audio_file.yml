@@ -1,4 +1,4 @@
-uuid: 426fd04b-3715-44af-bddb-2e5077757438
+uuid: 462a4aa4-d662-4bff-9a00-e6fbbb0a2724
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ bundle: audio
 label: 'Audio file'
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
