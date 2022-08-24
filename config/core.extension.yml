@@ -25,6 +25,7 @@ module:
   ebt_carousel: 0
   ebt_core: 0
   ebt_cta: 0
+  ebt_quote: 0
   ebt_slick_slider: 0
   ebt_slideshow: 0
   ebt_tabs: 0

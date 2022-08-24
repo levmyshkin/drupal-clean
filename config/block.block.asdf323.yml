@@ -1,0 +1,25 @@
+uuid: d189b0cf-f830-428d-a559-3a1eb7231248
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ebt_quote:e03b1996-5e5c-4a48-b406-2bd0c37a6c56'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: asdf323
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:e03b1996-5e5c-4a48-b406-2bd0c37a6c56'
+settings:
+  id: 'block_content:e03b1996-5e5c-4a48-b406-2bd0c37a6c56'
+  label: 'asdf 323'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
