@@ -1,0 +1,15 @@
+uuid: 221a3a6a-c279-40a5-8c54-16ff59befc8a
+langcode: en
+status: true
+dependencies: {  }
+name: quote_image
+label: 'Quote Image'
+effects:
+  d5f8c2ec-2f39-4c72-893b-842ea4d79b41:
+    uuid: d5f8c2ec-2f39-4c72-893b-842ea4d79b41
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 530
+      height: 530
+      anchor: center-center

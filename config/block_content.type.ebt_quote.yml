@@ -1,0 +1,8 @@
+uuid: d2575ae6-4e38-4e34-aee4-c2c1710ecae8
+langcode: en
+status: true
+dependencies: {  }
+id: ebt_quote
+label: 'EBT Quote'
+revision: 0
+description: 'Extra Block Type (EBT): Text'

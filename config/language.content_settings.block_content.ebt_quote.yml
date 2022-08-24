@@ -1,0 +1,11 @@
+uuid: 9a50714f-8062-41ae-bfbe-472723cbab8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_quote
+id: block_content.ebt_quote
+target_entity_type_id: block_content
+target_bundle: ebt_quote
+default_langcode: site_default
+language_alterable: false
