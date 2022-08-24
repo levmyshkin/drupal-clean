@@ -1,22 +1,22 @@
-uuid: 387331dd-b8ec-4f87-9f76-ee527a1935e1
+uuid: 9a369112-e320-41cd-a8f8-e9a7a6c7def6
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:ebt_text:710b4074-583b-45fc-bab1-e90246087797'
+    - 'block_content:ebt_tabs:141cc260-7d3e-47be-8536-521b68b2aaf9'
   module:
     - block_content
   theme:
     - olivero
-id: asdf122321
+id: afdsaf23
 theme: olivero
 region: content
 weight: 0
 provider: null
-plugin: 'block_content:710b4074-583b-45fc-bab1-e90246087797'
+plugin: 'block_content:141cc260-7d3e-47be-8536-521b68b2aaf9'
 settings:
-  id: 'block_content:710b4074-583b-45fc-bab1-e90246087797'
-  label: asdf122321
+  id: 'block_content:141cc260-7d3e-47be-8536-521b68b2aaf9'
+  label: 'afdsaf2 3'
   label_display: visible
   provider: block_content
   status: true

@@ -23,10 +23,10 @@ settings:
   handler: 'default:view'
   handler_settings:
     target_bundles: null
-    auto_create: true
+    auto_create: 1
   plugin_types:
-    default: 0
-    block: 0
+    default: default
+    block: block
     page: 0
     feed: 0
     embed: 0
