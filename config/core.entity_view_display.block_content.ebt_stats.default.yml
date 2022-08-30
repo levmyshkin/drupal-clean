@@ -1,0 +1,32 @@
+uuid: 1aaf4020-93fb-4bf5-bdfc-13c41d3b66ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_stats
+    - field.field.block_content.ebt_stats.body
+    - field.field.block_content.ebt_stats.field_ebt_settings
+  module:
+    - ebt_core
+    - text
+id: block_content.ebt_stats.default
+targetEntityType: block_content
+bundle: ebt_stats
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_ebt_settings:
+    type: ebt_settings_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

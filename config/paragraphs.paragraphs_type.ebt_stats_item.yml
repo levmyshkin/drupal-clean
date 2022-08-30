@@ -1,0 +1,10 @@
+uuid: 616ccb45-b7f6-4acd-b6bc-d73e6760cb39
+langcode: en
+status: true
+dependencies: {  }
+id: ebt_stats_item
+label: 'EBT Stats Item'
+icon_uuid: null
+icon_default: null
+description: 'Stats Item for EBT Stats block'
+behavior_plugins: {  }
