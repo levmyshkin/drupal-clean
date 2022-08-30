@@ -28,6 +28,7 @@ module:
   ebt_quote: 0
   ebt_slick_slider: 0
   ebt_slideshow: 0
+  ebt_stats: 0
   ebt_tabs: 0
   ebt_text: 0
   ebt_timeline: 0

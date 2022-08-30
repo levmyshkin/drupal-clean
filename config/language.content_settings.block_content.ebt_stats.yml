@@ -1,0 +1,11 @@
+uuid: 3a5eb28f-5322-4072-86d7-4055609a2f7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_stats
+id: block_content.ebt_stats
+target_entity_type_id: block_content
+target_bundle: ebt_stats
+default_langcode: site_default
+language_alterable: false
