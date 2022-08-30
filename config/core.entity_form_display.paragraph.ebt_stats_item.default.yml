@@ -4,10 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.ebt_stats_item.field_stats_item_image
+    - field.field.paragraph.ebt_stats_item.field_stats_item_link
     - field.field.paragraph.ebt_stats_item.field_stats_item_number
     - field.field.paragraph.ebt_stats_item.field_stats_item_text
     - paragraphs.paragraphs_type.ebt_stats_item
   module:
+    - link
     - media_library
     - text
 id: paragraph.ebt_stats_item.default
@@ -21,6 +23,14 @@ content:
     region: content
     settings:
       media_types: {  }
+    third_party_settings: {  }
+  field_stats_item_link:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
   field_stats_item_number:
     type: text_textarea
