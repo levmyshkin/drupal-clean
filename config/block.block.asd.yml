@@ -1,0 +1,25 @@
+uuid: af8d5b57-235d-4e54-b6e0-7043b3639275
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ebt_stats:05ba01e8-7a94-4af2-bc8d-ad51c28f261a'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: asd
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:05ba01e8-7a94-4af2-bc8d-ad51c28f261a'
+settings:
+  id: 'block_content:05ba01e8-7a94-4af2-bc8d-ad51c28f261a'
+  label: asd
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
