@@ -11,7 +11,7 @@ dependencies:
 id: asd
 theme: olivero
 region: content
-weight: 0
+weight: -4
 provider: null
 plugin: 'block_content:05ba01e8-7a94-4af2-bc8d-ad51c28f261a'
 settings:

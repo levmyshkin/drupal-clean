@@ -11,7 +11,7 @@ dependencies:
 id: asdf323
 theme: olivero
 region: content
-weight: 0
+weight: -3
 provider: null
 plugin: 'block_content:e03b1996-5e5c-4a48-b406-2bd0c37a6c56'
 settings:

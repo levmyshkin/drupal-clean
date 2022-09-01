@@ -1,0 +1,25 @@
+uuid: 1c703b78-1a63-408d-90bc-2d82daf1a6dd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ebt_quote:bb1cb4f3-d48b-4e96-97d7-ef7b3ceba7dc'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: company
+theme: olivero
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:bb1cb4f3-d48b-4e96-97d7-ef7b3ceba7dc'
+settings:
+  id: 'block_content:bb1cb4f3-d48b-4e96-97d7-ef7b3ceba7dc'
+  label: 'Company Quote'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

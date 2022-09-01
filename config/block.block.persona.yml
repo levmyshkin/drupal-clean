@@ -1,0 +1,25 @@
+uuid: 64fdc400-7afd-4318-9c10-ce7dbf1cedf4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ebt_quote:75afc44c-1846-490a-b044-090588a9dacf'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: persona
+theme: olivero
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:75afc44c-1846-490a-b044-090588a9dacf'
+settings:
+  id: 'block_content:75afc44c-1846-490a-b044-090588a9dacf'
+  label: 'Persona Quote'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

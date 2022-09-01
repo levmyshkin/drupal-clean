@@ -1,0 +1,25 @@
+uuid: 3d6f3e95-1c66-44e4-a272-1eae52aef888
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ebt_quote:4560a41e-d023-4577-a8d5-75fd2077ae8d'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: quotewithsquareimage
+theme: olivero
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:4560a41e-d023-4577-a8d5-75fd2077ae8d'
+settings:
+  id: 'block_content:4560a41e-d023-4577-a8d5-75fd2077ae8d'
+  label: 'Quote with square image'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

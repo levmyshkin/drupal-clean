@@ -1,0 +1,25 @@
+uuid: c39b540a-25c5-412b-940b-e9c4e4bac6d9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ebt_quote:d6cd9be1-e2e0-4894-a208-ff53c3792521'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: asfsdfa
+theme: olivero
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:d6cd9be1-e2e0-4894-a208-ff53c3792521'
+settings:
+  id: 'block_content:d6cd9be1-e2e0-4894-a208-ff53c3792521'
+  label: 'Quote with small image'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

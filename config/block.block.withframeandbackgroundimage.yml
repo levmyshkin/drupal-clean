@@ -1,0 +1,25 @@
+uuid: 1140cef0-7b23-4838-99d3-d4f95b98dbf3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ebt_quote:69e3048b-5e64-423c-8b83-b11eb61fab56'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: withframeandbackgroundimage
+theme: olivero
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:69e3048b-5e64-423c-8b83-b11eb61fab56'
+settings:
+  id: 'block_content:69e3048b-5e64-423c-8b83-b11eb61fab56'
+  label: 'With frame and background image'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
