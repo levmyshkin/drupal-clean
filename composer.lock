@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ce3cfea459defa3f5d06d7198ef93d1c",
+    "content-hash": "00e141574489e03336736288ac5fa00c",
     "packages": [
         {
             "name": "ajgl/breakpoint-twig-extension",
@@ -5165,6 +5165,31 @@
                 "source": "https://github.com/levmyshkin/tiny-slider/tree/2.9.5"
             },
             "time": "2021-11-28T11:04:51+00:00"
+        },
+        {
+            "name": "levmyshkin/waypoints",
+            "version": "4.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/levmyshkin/waypoints.git",
+                "reference": "b8e7515b51d229e5eeaa7fdb4ac8d44001c717eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/levmyshkin/waypoints/zipball/b8e7515b51d229e5eeaa7fdb4ac8d44001c717eb",
+                "reference": "b8e7515b51d229e5eeaa7fdb4ac8d44001c717eb",
+                "shasum": ""
+            },
+            "type": "drupal-library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Waypoints is a library that makes it easy to execute a function whenever you scroll to an element.",
+            "support": {
+                "source": "https://github.com/levmyshkin/waypoints/tree/4.0.1"
+            },
+            "time": "2022-09-02T13:58:10+00:00"
         },
         {
             "name": "masterminds/html5",

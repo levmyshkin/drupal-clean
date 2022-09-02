@@ -44,7 +44,8 @@
         "levmyshkin/jquery-mb-ytplayer": "^3.3",
         "levmyshkin/parallaxjs": "^1.5",
         "levmyshkin/slick": "^1.8",
-        "levmyshkin/tiny-slider": "^2.9"
+        "levmyshkin/tiny-slider": "^2.9",
+        "levmyshkin/waypoints": "^4.0"
     },
     "conflict": {
         "drupal/drupal": "*"
