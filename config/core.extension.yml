@@ -74,6 +74,7 @@ module:
   user: 0
   views_ui: 0
   viewsreference: 0
+  waypoints: 0
   webform: 0
   content_translation: 10
   views: 10
