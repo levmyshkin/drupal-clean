@@ -1,0 +1,30 @@
+uuid: 0b7150b0-6d5b-4efb-8926-bcb2075b3892
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ebt_stats:8c515806-6e56-4c62-b185-a16f42703d76'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: sadfsd
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:8c515806-6e56-4c62-b185-a16f42703d76'
+settings:
+  id: 'block_content:8c515806-6e56-4c62-b185-a16f42703d76'
+  label: sadfsd
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/2

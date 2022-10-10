@@ -1,0 +1,11 @@
+uuid: 72f6af7d-984c-43b7-ad98-83723b265f91
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ebt_image_gallery
+id: block_content.ebt_image_gallery
+target_entity_type_id: block_content
+target_bundle: ebt_image_gallery
+default_langcode: site_default
+language_alterable: false

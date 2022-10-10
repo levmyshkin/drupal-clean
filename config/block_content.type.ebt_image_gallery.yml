@@ -1,0 +1,8 @@
+uuid: 120baf64-78e2-4d50-a9ed-867eecb4efa7
+langcode: en
+status: true
+dependencies: {  }
+id: ebt_image_gallery
+label: 'EBT Image Gallery'
+revision: 0
+description: 'Extra Block Type (EBT): Image Gallery'

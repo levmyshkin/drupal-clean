@@ -1,0 +1,30 @@
+uuid: fed31665-de3e-4713-9000-3b89924bb5c4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ebt_image_gallery:c8db9643-9c5e-495d-a701-b7f789bf2f0a'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: asdfa
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:c8db9643-9c5e-495d-a701-b7f789bf2f0a'
+settings:
+  id: 'block_content:c8db9643-9c5e-495d-a701-b7f789bf2f0a'
+  label: asdfa
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/3
