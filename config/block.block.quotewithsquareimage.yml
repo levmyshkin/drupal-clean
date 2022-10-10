@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:ebt_quote:4560a41e-d023-4577-a8d5-75fd2077ae8d'
   module:
     - block_content
+    - system
   theme:
     - olivero
 id: quotewithsquareimage
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

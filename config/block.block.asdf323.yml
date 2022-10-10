@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:ebt_quote:e03b1996-5e5c-4a48-b406-2bd0c37a6c56'
   module:
     - block_content
+    - system
   theme:
     - olivero
 id: asdf323
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
