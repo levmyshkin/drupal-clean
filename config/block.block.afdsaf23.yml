@@ -12,7 +12,7 @@ dependencies:
 id: afdsaf23
 theme: olivero
 region: content
-weight: -5
+weight: -7
 provider: null
 plugin: 'block_content:141cc260-7d3e-47be-8536-521b68b2aaf9'
 settings:

@@ -12,7 +12,7 @@ dependencies:
 id: sadfsd
 theme: olivero
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: 'block_content:8c515806-6e56-4c62-b185-a16f42703d76'
 settings:

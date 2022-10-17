@@ -1,23 +1,23 @@
-uuid: 3d6f3e95-1c66-44e4-a272-1eae52aef888
+uuid: 9b9dae7f-a7f6-4947-a41a-58be188cf8da
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:ebt_quote:4560a41e-d023-4577-a8d5-75fd2077ae8d'
+    - 'block_content:ebt_stats:63908044-5fc2-49ab-bdc5-8d23bab6845a'
   module:
     - block_content
     - system
   theme:
     - olivero
-id: quotewithsquareimage
+id: statsinsquares
 theme: olivero
 region: content
-weight: -10
+weight: -1
 provider: null
-plugin: 'block_content:4560a41e-d023-4577-a8d5-75fd2077ae8d'
+plugin: 'block_content:63908044-5fc2-49ab-bdc5-8d23bab6845a'
 settings:
-  id: 'block_content:4560a41e-d023-4577-a8d5-75fd2077ae8d'
-  label: 'Quote with square image'
+  id: 'block_content:63908044-5fc2-49ab-bdc5-8d23bab6845a'
+  label: 'Stats in squares'
   label_display: visible
   provider: block_content
   status: true
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '<front>'
+    pages: /node/2

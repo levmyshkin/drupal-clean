@@ -12,7 +12,7 @@ dependencies:
 id: company
 theme: olivero
 region: content
-weight: -10
+weight: -12
 provider: null
 plugin: 'block_content:bb1cb4f3-d48b-4e96-97d7-ef7b3ceba7dc'
 settings:

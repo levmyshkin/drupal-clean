@@ -12,7 +12,7 @@ dependencies:
 id: withframeandbackgroundimage
 theme: olivero
 region: content
-weight: -7
+weight: -9
 provider: null
 plugin: 'block_content:69e3048b-5e64-423c-8b83-b11eb61fab56'
 settings:

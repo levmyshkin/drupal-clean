@@ -12,7 +12,7 @@ dependencies:
 id: asfsdfa
 theme: olivero
 region: content
-weight: -9
+weight: -11
 provider: null
 plugin: 'block_content:d6cd9be1-e2e0-4894-a208-ff53c3792521'
 settings:

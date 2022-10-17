@@ -1,23 +1,23 @@
-uuid: 3d6f3e95-1c66-44e4-a272-1eae52aef888
+uuid: 81b413ec-8676-49f7-92d0-cfb234313545
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:ebt_quote:4560a41e-d023-4577-a8d5-75fd2077ae8d'
+    - 'block_content:ebt_slick_slider:09ff528c-e336-4b23-b45a-2cd157bbdd73'
   module:
     - block_content
     - system
   theme:
     - olivero
-id: quotewithsquareimage
+id: asdfas234
 theme: olivero
 region: content
-weight: -10
+weight: -3
 provider: null
-plugin: 'block_content:4560a41e-d023-4577-a8d5-75fd2077ae8d'
+plugin: 'block_content:09ff528c-e336-4b23-b45a-2cd157bbdd73'
 settings:
-  id: 'block_content:4560a41e-d023-4577-a8d5-75fd2077ae8d'
-  label: 'Quote with square image'
+  id: 'block_content:09ff528c-e336-4b23-b45a-2cd157bbdd73'
+  label: asdfas234
   label_display: visible
   provider: block_content
   status: true
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '<front>'
+    pages: /node/4
